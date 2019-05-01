@@ -32,4 +32,3 @@ require 'vues/v_fin.inc.php';
 
 //on inclu un footer deja existant
 include 'includes/footer.php';
-?>   
