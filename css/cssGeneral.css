@@ -174,3 +174,98 @@ td.libre
     width:30px;
     text-align:center;
 }
+
+
+
+
+
+
+/* Social network icons */
+
+#ReseauxSociaux {
+    float: left;
+    left: 50px;
+    position: relative;
+    top: 15px;
+
+}
+
+/* taille des images facebook, twitter, instagram*/
+#ReseauxSociaux a {
+    width:30px;
+    height:30px;
+}
+
+/* Social icons' content */
+
+#twitter {
+    content: url(../images/twitter.png);
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+}
+
+#facebook {
+    content: url(../images/facebook.jpg);
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+}
+
+#instagram {
+    content: url(../images/instagram.jpg);
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+}
+
+/* Footer menu */
+
+footer nav { /* met les éléments côte a côte */
+    position: relative;
+    width: 650px;
+    margin: auto;
+
+}
+
+footer nav ul {
+    background: #485160;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+footer nav ul:before {
+    content: '';
+    position: absolute;
+    width: 10;
+}
+
+footer nav ul li {
+    float: left;
+    left: 20%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 14px;
+
+}
+
+footer nav ul li a {
+    background: #485160;
+    border-right: 1px solid white;
+    color: white;
+    float: left;
+    font-size: 14px;
+    height: auto;
+    margin: 1px;
+    padding: 5px 8px;
+    text-decoration: none;
+
+}
+
+footer nav ul li:last-child a {
+    border-right: none;
+}

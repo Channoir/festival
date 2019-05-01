@@ -28,4 +28,8 @@ switch ($uc) {
         include './controleurs/c_AttributionChambres.php';
         break;
 }
-require 'vues/v_fin.inc.php';
+require 'vues/v_fin.inc.php'; 
+
+//on inclu un footer deja existant
+include 'includes/footer.php';
+?>   
