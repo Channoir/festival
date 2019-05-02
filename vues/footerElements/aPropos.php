@@ -60,16 +60,11 @@
                     </p>
                     <p>
                     </p>
-                <li>Au passage, je recherche toujours un stage, alors voici mon cv ;)
+             <!--   <li>Au passage, je recherche toujours un stage, alors voici mon cv ;)
             </ul>
-            <img src="../../images/DUVAL Quentin.jpg" alt=""/>
-            
-            <!-- je ne comprends pas l'erreur que me procure mon footer -->
-            <link href="css/cssGeneral.css" rel="stylesheet"/>
-            <?php
-            //on inclu un footer deja existant
-            include '../../includes/footer.php';
-            ?>
+            <img src="../../images/DUVAL Quentin.jpg" alt=""/> -->
+             
+             <a href="http://localhost/festival/index.php"><input type="button" name="Acceuil "value="Acceuil"/></a>
         </td>
     </tr>
 </table>
