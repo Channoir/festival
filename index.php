@@ -1,4 +1,5 @@
 <?php
+
 require_once 'includes/gestionErreurs.inc.php';
 require_once 'modele/class.pdofestival.inc.php';
 include 'includes/pdo-debug.php';
@@ -28,7 +29,7 @@ switch ($uc) {
         include './controleurs/c_AttributionChambres.php';
         break;
 }
-require 'vues/v_fin.inc.php'; 
+require 'vues/v_fin.inc.php';
 
 //on inclu un footer deja existant
 include 'includes/footer.php';
